@@ -145,7 +145,7 @@ class GossipSimulation:
                 t_kill  = rnd
                 if verbose:
                     dead_ip = self.ip_pool[dead_id]
-                    print(f"\n💀  Round {rnd}: Node {dead_id} ({dead_ip}) KILLED\n")
+                    print(f"\nRound {rnd}: Node {dead_id} ({dead_ip}) KILLED\n")
 
             self.gossip_round()
 
